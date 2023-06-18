@@ -1,0 +1,10 @@
+
+Lambda functions are singe line  and  should return some value used when we need a function for less time and don’t need it later. 
+
+Set - .add(element) adds element
+	  .remove(element) removes element if found if not error
+	  .discard(element) removes element if found if not it won’t raise error
+All these are O(1) but in worse case of collisions in Hash table its O(n)
+Dictionary : 
+		.get(key, default) - will give you value for key in dict if key not present it will return the value we pass in default
+All these are O(1) but in worse case of collisions in Hash table its O(n)
