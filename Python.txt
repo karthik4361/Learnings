@@ -13,3 +13,5 @@ Default Dict:   The main advantage of a defaultdict is that it avoids the "KeyEr
 
 Usage - from collections import defaultdict
 	my_dict = defaultdict(default_value_factory)
+
+sorted() for sorting returns a list-  sorted(iterable, key(Function which returns a value to be compared,), reverse(True or false))

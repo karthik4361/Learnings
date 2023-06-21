@@ -1,0 +1,55 @@
+Database
+
+
+Data - Any data to take business decisions
+Base -  Collection of similar data at a place (ex: Airbase)
+
+Database -  Collection of related data at a particular location
+
+DBMS -> A software which helps us to do CURD operations	for/on database efficiently
+
+SQL databases - Consistent - vertically scalable
+NoSQL databases - Eventually consistent - Horizontally Scalable 
+
+DBMS Supports indexing , cacheing and automatic query optimizer, storage engine (InnoDB for SQL this helps in efficient storage, handling fragmentation, maintain ACID properties)
+
+Relation = Table =  Entity = Class 
+Tuple = Row = Object 
+Attribute = Column = Member Variables
+
+NoSQL DB;
+
+1, Document DB: Json is directly stored in database, each JSON is a row
+
+Eg: MangoDB, DynamoDB
+
+2, GraphDB: store graph like data like linked in data with connections
+
+Eg:neo4G
+
+3, ColomnarDB: instead of row wise column wise data is stored
+— its fast because most time we will filter based on column or join by column and in column all data is of same type so we can decrease size of column by applying some casing techniques. So used in analytical purposes
+
+Eg:  Cassandra, 
+
+4.Key- value : similar to hash map
+- Redis 
+
+
+Keys:
+
+Set of columns to uniquely identify a row.
+
+Candidate key: keys with minimum size
+
+
+Primary Key:
+A candidate key which is chosen by by database administrator to uniquely identify a row
+
+Tip : never use column which change as primary key.
+
+Foreign key: Relationships in RDBMS are established using RDBMS 
+
+Foreign key is  key is other table but exists in this table and defines a relationship 
+
+Composite key: A primary key with size garter than 1
